@@ -53,6 +53,7 @@
 								</thingDefs>
 							</ingredientFilter>
 							<processDays>1.5</processDays>
+							<usesTemperature>false</usesTemperature>
 							<unfueledFactor>0.0</unfueledFactor>
 							<fuelUseFactor>1.0</fuelUseFactor>
 							<filledGraphicSuffix>_Full</filledGraphicSuffix>
