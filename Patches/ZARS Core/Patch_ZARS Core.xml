@@ -18,6 +18,15 @@
 						<li>Fibrous</li>
 					</value>
 				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/ThingDef[defName="ZARS_FibreHay"]/stuffProps/stuffAdjective</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="ZARS_FibreHay"]/stuffProps</xpath>
+						<value>
+							<stuffAdjective>fibrous</stuffAdjective>
+						</value>
+					</nomatch>
+				</li>
 			</operations>
 		</match>
 	</Operation>

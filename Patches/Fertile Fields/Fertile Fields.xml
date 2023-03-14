@@ -99,6 +99,15 @@
 					</nomatch>
 				</li>
 				<li Class="PatchOperationConditional">
+					<xpath>Defs/ThingDef[defName="PlantScraps"]/stuffProps/stuffAdjective</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="PlantScraps"]/stuffProps</xpath>
+						<value>
+							<stuffAdjective>leafy</stuffAdjective>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationConditional">
 					<xpath>Defs/ThingDef[defName="PlantScraps"]/stuffProps/statFactors/Flammability</xpath>
 					<match Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="PlantScraps"]/stuffProps/statFactors/Flammability</xpath>
